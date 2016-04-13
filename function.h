@@ -1,6 +1,6 @@
 #ifndef FUNCTION_H
 #define FUNCTION_H
-
+  
 #include <cmath>
 #include <iostream>
 #include <stack>
