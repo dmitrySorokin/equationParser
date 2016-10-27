@@ -4,19 +4,6 @@
 
 using namespace std;
 
-template <typename T>
-void func(T t)
-{
-    cout<<t<<endl;
-}
-
-template <typename  T, typename... Args>
-void func(T t, Args...args)
-{
-    cout<<t<<endl;
-    func(args...);
-};
-
 int main()
 {
 
@@ -32,8 +19,5 @@ int main()
         cout<<"result = "<<res<<endl;
     }
 
-
-
-    cout << "Hello, World!" << endl;
     return 0;
 }
